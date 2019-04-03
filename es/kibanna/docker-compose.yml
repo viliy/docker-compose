@@ -1,0 +1,8 @@
+version: '2'
+services:
+  kibana:
+    image: docker.elastic.co/kibana/kibana:6.2.4
+    network_mode: host
+    environment:
+      SERVER_NAME: tantu_hotel_poi
+      ELASTICSEARCH_HOSTS: http://172.16.60.45:9200
