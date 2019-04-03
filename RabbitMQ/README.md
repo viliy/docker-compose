@@ -2,9 +2,9 @@
 
 ## 安装
 
-> git clone https://github.com/viliy/docker-compose.git 
-> cd docker-compose/RabbitMQ
-> docker-compose up -d
+* git clone https://github.com/viliy/docker-compose.git 
+* cd docker-compose/RabbitMQ
+* docker-compose up -d
 
 ## 加入集群
 
@@ -28,7 +28,8 @@ rabbitmqctl start_app"
 
 ## 查看web
 
-> 浏览器输入： 127.0.0.1:http://127.0.0.1:15672/#/
+> http://127.0.0.1:15672/#/
+
 > 账号密码： guest guest
 
 ## 删除
