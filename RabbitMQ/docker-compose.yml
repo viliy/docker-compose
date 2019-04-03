@@ -30,6 +30,15 @@ services:
       - "15674:15672"
     restart: always
     hostname: follwer-2
+  haproxy:
+    build:
+      context: ./
+      dockerfile: haproxy/Dockerfile
+    ports:
+      - "1080:80"
+      - "5677:5677"
+      - "8001:8001"
+    restart: always
+    hostname: haproxy
 networks:
   default:
-
