@@ -33,6 +33,7 @@ rabbitmqctl start_app"
 ## 查看 web
 
 > 节点1 http://127.0.0.1:15672/#/
+
 > haproxy http://127.0.0.1:8001
 
 > 账号密码： guest guest
